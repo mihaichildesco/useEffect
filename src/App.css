@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  background-color: #282c34;
 }
 
 .App-logo {
@@ -8,13 +10,10 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding-left: 50px;
+  padding-top: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: row;
   color: white;
 }
 
@@ -28,4 +27,16 @@
 
 .small {
   font-size: 0.75rem;
+}
+
+button {
+  font-size: 1.5em;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 5px;
+}
+
+h1,
+pre {
+  color: white;
 }
